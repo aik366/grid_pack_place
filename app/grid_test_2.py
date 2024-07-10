@@ -7,12 +7,9 @@ app = ctk.CTk()
 app.geometry("+600+350")
 app.resizable(False, False)
 
+
 def color_button(button, fg_color, hover_color):
     button.configure(fg_color=fg_color, hover_color=hover_color)
-
-
-# def grid_forget(frame):
-#     frame.grid_forget()
 
 
 def if_forget_2():
